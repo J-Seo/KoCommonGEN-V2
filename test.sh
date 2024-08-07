@@ -1,11 +1,11 @@
 python3 main.py \
 --model hf-causal-experimental \
---model_args pretrained="nlpai-lab/kullm-polyglot-12.8b-v2" \
+--model_args pretrained="nlpai-lab/KULLM3" \
 --task ko_commongen_v2 \
---device cuda:0 \
+--device cuda:1 \
 --num_fewshot 2 \
 --batch_size 1 \
---output nlpai-lab/kullm-polyglot-12.8b-v2 &
+--output nlpai-lab/KULLM3 &
 
 #python3 main.py \
 #--model hf-causal-experimental \
