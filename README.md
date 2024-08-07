@@ -1,5 +1,5 @@
 # KoCommonGEN v2
-KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challenges in Large Language Models (ACL 2024)
+KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challenges in Large Language Models (ACL-findings 2024)
 
 *Jaehyung Seo, Jaewook Lee, Chanjun Park, SeongTae Hong, Seungjun Lee and Heuiseok Lim* 
 
