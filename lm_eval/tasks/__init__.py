@@ -2,11 +2,8 @@ from pprint import pprint
 from typing import List, Union
 
 import lm_eval.base
-from . import ko_commongen_v2
 
-########################################
-# All tasks
-########################################
+from . import ko_commongen_v2
 
 
 TASK_REGISTRY = {
