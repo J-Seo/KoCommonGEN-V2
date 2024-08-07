@@ -1,4 +1,4 @@
-# KoCommonGEN-V2
+# KoCommonGEN v2
 KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challenges in Large Language Models (ACL 2024)
 
 *Jaehyung Seo, Jaewook Lee, Chanjun Park, SeongTae Hong, Seungjun Lee and Heuiseok Lim* 
@@ -7,12 +7,14 @@ KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challeng
 
 ---
 
-## 🌠 Overview
+### 🌠 Overview
 
 
 
 
-## 🛠️ Installation
+### 🛠️ Installation
+
+This repository partially adopts the evaluation methods of version 0.3.0 of [EleutherAI/lm-eval-harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/v0.3.0) for the evaluation of KoCommonGEN v2
 
 ```bash
 $ git clone https://github.com/J-Seo/KoCommonGEN-V2.git
@@ -23,7 +25,7 @@ $ git clone https://github.com/J-Seo/KoCommonGEN-V2.git
 $ cd KoCommonGEN_v2
 $ pip install -r requirements.txt 
 ```
-## 🚀 Usage
+### 🚀 Usage
 
 The maximum number of few-shot examples currently uploaded is 5. Users can freely add more to increase *--num_fewshot*
 
@@ -43,7 +45,7 @@ python3 main.py \
 --output nlpai-lab/KULLM3 &
 ```
 
-## ✔️ Results
+### ✔️ Results
 
 The results are an example of the evaluation of [KULLM3](https://github.com/nlpai-lab/KULLM)
 
@@ -55,7 +57,7 @@ hf-causal-experimental (pretrained=nlpai-lab/KULLM3), limit: None, provide_descr
 
 As mentioned in the paper, it is possible to evaluate various models.
 
-## 📖 Citation
+### 📖 Citation
 
 ```
 @inproceedings{seo2024Kocommongenv2,
@@ -71,10 +73,10 @@ As mentioned in the paper, it is possible to evaluate various models.
     pages = "TBD"}
 ```
 
-## 🙏 Acknowledgement
+### 🙏 Acknowledgement
 
 We sincerely appreciate the dedication of Sung Kim, Chanjun Park, and Sanghoon Kim from **Upstage AI** in managing one of the benchmark datasets for the
-[Open Ko-LLM LeaderBoard](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard)
+[Open Ko-LLM LeaderBoard](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard). 
 
 
 
