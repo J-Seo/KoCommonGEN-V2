@@ -3,13 +3,11 @@ KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challeng
 
 *Jaehyung Seo, Jaewook Lee, Chanjun Park, SeongTae Hong, Seungjun Lee and Heuiseok Lim* 
 
-🏫 [NLP & AI Lab](http://blp.korea.ac.kr/), **Korea University** 
+🏫 [NLP & AI Lab](https://blpkorea.cafe24.com/wp/), **Korea University** 
 
 ---
 
 ### 🌠 Overview
-
-
 
 
 ### 🛠️ Installation
@@ -57,6 +55,17 @@ hf-causal-experimental (pretrained=nlpai-lab/KULLM3), provide_description: False
 
 As mentioned in the paper, it is possible to evaluate various models.
 
+### 🇰🇷🇺🇸🇯🇵🇨🇳🇪🇸 Code-switching 
+
+The multilingual dataset consists of 99 samples for numerical commonsense reasoning, which were created relying on machine translation.
+
+The dataset can be found at the following path: `lm_eval/datasets/ko_commongen_v2/shuffled_$LANG$_1.0.jsonl`.
+
+(The code-switching data relies on machine translation, which may result in some inaccuracies.)
+
+If you intend to use it for evaluation, you should modify the prompt and file path in `lm_eval/tasks/ko_commongen_v2.py`.
+
+
 ### 📖 Citation
 
 ```
@@ -72,6 +81,10 @@ As mentioned in the paper, it is possible to evaluate various models.
     doi = "TBD",
     pages = "TBD"}
 ```
+### 🚨 Warning!
+
+This dataset contains some instances of toxic speech.
+
 
 ### 🙏 Acknowledgement
 
