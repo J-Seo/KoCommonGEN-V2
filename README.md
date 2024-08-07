@@ -49,7 +49,7 @@ python3 main.py \
 
 The results are an example of the evaluation of [KULLM3](https://github.com/nlpai-lab/KULLM)
 
-hf-causal-experimental (pretrained=nlpai-lab/KULLM3), limit: None, provide_description: False, num_fewshot: 2, batch_size: 1
+hf-causal-experimental (pretrained=nlpai-lab/KULLM3), provide_description: False, num_fewshot: 2, batch_size: 1
 |     Task      |Version| Metric |Value |   |Stderr|
 |---------------|------:|--------|-----:|---|-----:|
 |ko_commongen_v2|      0|acc     |0.5797|±  |0.0170|
