@@ -43,6 +43,20 @@ python3 main.py \
 --output nlpai-lab/KULLM3 &
 ```
 
+You can also use sequence-to-sequence models.
+
+```bash
+## test.sh
+python3 main.py \
+--model hf-seq2seq \
+--model_args pretrained="google/flan-t5-xxl" \
+--task ko_commongen_v2 \
+--device cuda:1 \
+--num_fewshot 2 \
+--batch_size 1 \
+--output google/flan-t5-xxl &
+```
+
 ### ✔️ Results
 
 An example of the evaluation of [KULLM3](https://github.com/nlpai-lab/KULLM)
