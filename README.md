@@ -4,12 +4,12 @@ KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challeng
 
 *Jaehyung Seo, Jaewook Lee, Chanjun Park, SeongTae Hong, Seungjun Lee and Heuiseok Lim* 
 
-🏫 [NLP & AI Lab](https://blpkorea.cafe24.com/wp/), **Korea University** 
+🏫 [NLP & AI Lab](https://blpkorea.cafe24.com/wp/), Korea University
 
 ---
 ### 🔥 News
 - August 7, 2024: Dataset Release
-- August 10, 2024: Experimental Results for the New Model Added
+- August 10, 2024: Experimental Results for the New Models Added
 
 ### 🛠️ Installation
 
