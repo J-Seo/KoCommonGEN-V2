@@ -1,4 +1,4 @@
-# KoCommonGEN v2
+# 🌠 KoCommonGEN v2
 KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challenges in Large Language Models (ACL-findings 2024)
 
 *Jaehyung Seo, Jaewook Lee, Chanjun Park, SeongTae Hong, Seungjun Lee and Heuiseok Lim* 
@@ -6,10 +6,6 @@ KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challeng
 🏫 [NLP & AI Lab](https://blpkorea.cafe24.com/wp/), **Korea University** 
 
 ---
-
-### 🌠 Overview
-
-
 ### 🛠️ Installation
 
 This repository partially adopts the evaluation methods of version 0.3.0 of [EleutherAI/lm-eval-harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/v0.3.0) for the evaluation of KoCommonGEN v2
