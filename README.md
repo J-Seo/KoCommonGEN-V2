@@ -7,34 +7,9 @@ KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challeng
 🏫 [NLP & AI Lab](https://blpkorea.cafe24.com/wp/), **Korea University** 
 
 ---
-
-### ✔️ Results (August 10, 2024)
-
-| Model | #    | Average Score | cohen's kappa | Krippendorff's alpha | Etc        |
-| :---- | ---- | ------------- | ------------- | -------------------- | ---------- |
-| Human | 22   | 0.8395        | 0.7693        | 0.7706               | $0.8 per Q |
-
----
-
-| Model                      | Size  | Acc_norm | Stderr | Link                                                         |
-| :------------------------- | ----- | -------- | ------ | ------------------------------------------------------------ |
-| GPT-4                      |       | 0.7450   |        |                                                              |
-| Mistral-Nemo-Instruct      | 12B   | 0.6612   | 0.0163 | [🔗](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) |
-| Mistal Nemo - Base         | 12B   | 0.6340   | 0.0166 | [🔗](https://huggingface.co/mistralai/Mistral-Nemo-Base-2407) |
-| Meta-Llama-3.1-8B          | 8B    | 0.6246   | 0.0166 | [🔗](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B)     |
-| QWEN2-7B base              | 7B    | 0.6187   | 0.0167 | [🔗](https://huggingface.co/Qwen/Qwen2-7B)                    |
-| EXAONE-3.0-7.8B-Instruct   | 7.8B  | 0.6088   | 0.0168 | [🔗](https://huggingface.co/LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct) |
-| Meta-Llama-3.1-8B-Instruct | 8B    | 0.6057   | 0.0168 | [🔗](meta-llama/Meta-Llama-3.1-8B-Instruct)                   |
-| KULLM3                     | 10.8B | 0.6033   | 0.0168 | [🔗](https://huggingface.co/nlpai-lab/KULLM3)                 |
-| QWEN2-7B inst              | 7B    | 0.5832   | 0.017  | [🔗](Qwen/Qwen2-7B-Instruct)                                  |
-| gemma-2-9b-it              | 9B    | 0.5714   | 0.0170 | [🔗](https://huggingface.co/google/gemma-2-9b-it)             |
-| aya-23-8B                  | 8B    | 0.5159   | 0.0172 | [🔗](CohereForAI/aya-23-8B)                                   |
-| bllossom-2.0-13b           | 13B   | 0.3920   | 0.0168 | [🔗](https://huggingface.co/Teddysum/bllossom-2.0-13b)        |
-| allganize-Alpha-Instruct   | 8B    | 0.497    | 0.0172 | [🔗](https://huggingface.co/allganize/Llama-3-Alpha-Ko-8B-Instruct) |
-
-As mentioned in the paper, it is possible to evaluate various models.
-
-
+### 🔥 News
+- August 7, 2024: Dataset Release
+- August 10, 2024: Experimental Results for the New Model Added
 
 ### 🛠️ Installation
 
@@ -49,7 +24,6 @@ $ git clone https://github.com/J-Seo/KoCommonGEN-V2.git
 $ cd KoCommonGEN_v2
 $ pip install -r requirements.txt 
 ```
-
 ### 🚀 Usage
 
 The maximum number of few-shot examples currently uploaded is 5. Users can freely add more to increase *--num_fewshot*
@@ -84,6 +58,36 @@ python3 main.py \
 --output google/flan-t5-xxl &
 ```
 
+
+### 👥 Human Evaluation
+
+We recruited 22 native Korean speaking volunteers as human evaluators and paid them $0.8 per question.
+
+| Model | #    | Average Score | cohen's kappa | Krippendorff's alpha |
+| :---- | ---- | ------------- | ------------- | -------------------- |
+| **Human** | 22   | 0.8395        | 0.7693        | 0.7706               | 
+
+### 🤖 Models (August 10, 2024)
+
+The results of 2-shot evaluation of the newly released models. 
+
+| Model                      | Size  | Acc_norm | Stderr | Link                                                         |
+| :------------------------- | ----- | -------- | ------ | ------------------------------------------------------------ |
+| **GPT-4** (June 13, 2023)         |       | **0.7450**   |        |                                                        |
+| **Mistral-Nemo-Instruct**      | 12B   | 0.6612   | 0.0163 | [🔗](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) |
+| **Mistal Nemo - Base**         | 12B   | 0.6340   | 0.0166 | [🔗](https://huggingface.co/mistralai/Mistral-Nemo-Base-2407) |
+| **Meta-Llama-3.1-8B**          | 8B    | 0.6246   | 0.0166 | [🔗](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B)     |
+| **QWEN2-7B base**              | 7B    | 0.6187   | 0.0167 | [🔗](https://huggingface.co/Qwen/Qwen2-7B)                    |
+| **EXAONE-3.0-7.8B-Instruct**   | 7.8B  | 0.6088   | 0.0168 | [🔗](https://huggingface.co/LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct) |
+| **Meta-Llama-3.1-8B-Instruct** | 8B    | 0.6057   | 0.0168 | [🔗](meta-llama/Meta-Llama-3.1-8B-Instruct)                   |
+| **KULLM3**                     | 10.8B | 0.6033   | 0.0168 | [🔗](https://huggingface.co/nlpai-lab/KULLM3)                 |
+| **QWEN2-7B inst**              | 7B    | 0.5832   | 0.017  | [🔗](Qwen/Qwen2-7B-Instruct)                                  |
+| **Gemma-2-9b-it**              | 9B    | 0.5714   | 0.0170 | [🔗](https://huggingface.co/google/gemma-2-9b-it)             |
+| **Aya-23-8B**                  | 8B    | 0.5159   | 0.0172 | [🔗](CohereForAI/aya-23-8B)                                   |
+| **Allganize-Alpha-Instruct**   | 8B    | 0.4970   | 0.0172 | [🔗](https://huggingface.co/allganize/Llama-3-Alpha-Ko-8B-Instruct) |
+| **Bllossom-2.0-13b**           | 13B   | 0.3920   | 0.0168 | [🔗](https://huggingface.co/Teddysum/bllossom-2.0-13b)        |
+
+As mentioned in the paper, it is possible to evaluate various models.
 
 
 ### 🇰🇷🇺🇸🇯🇵🇨🇳🇪🇸 Code-switching 
