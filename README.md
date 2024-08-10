@@ -79,7 +79,6 @@ python3 main.py \
 | aya-23-8B                  | 8B    | 0.5159   | 0.0172 | [🔗](CohereForAI/aya-23-8B)                                   |
 | bllossom-2.0-13b           | 13B   | 0.3920   | 0.0168 | [🔗](https://huggingface.co/Teddysum/bllossom-2.0-13b)        |
 | allganize-Alpha-Instruct   | 8B    | 0.497    | 0.0172 | [🔗](https://huggingface.co/allganize/Llama-3-Alpha-Ko-8B-Instruct) |
-|                            |       |          |        |                                                              |
 
 ​	As mentioned in the paper, it is possible to evaluate various models.
 
