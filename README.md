@@ -83,7 +83,7 @@ The results of 2-shot evaluation of the newly released models.
 |     **Meta-Llama-3.1-8B**      |  8B   |   0.6246   | 0.0166 |   [🔗](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B)   |
 |       **QWEN2-7B base**        |  7B   |   0.6187   | 0.0167 |          [🔗](https://huggingface.co/Qwen/Qwen2-7B)           |
 |  **EXAONE-3.0-7.8B-Instruct**  | 7.8B  |   0.6088   | 0.0168 | [🔗](https://huggingface.co/LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct) |
-|   **MLP-KTLim-Bllossom-8B**    |  8B   |   0.6057   | 0.0168 |                             [🔗](                             |
+|   **MLP-KTLim-Bllossom-8B**    |  8B   |   0.6057   | 0.0168 |                             [🔗](https://huggingface.co/MLP-KTLim/llama-3-Korean-Bllossom-8B)                             |
 | **Meta-Llama-3.1-8B-Instruct** |  8B   |   0.6057   | 0.0168 |          [🔗](meta-llama/Meta-Llama-3.1-8B-Instruct)          |
 |           **KULLM3**           | 10.8B |   0.6033   | 0.0168 |         [🔗](https://huggingface.co/nlpai-lab/KULLM3)         |
 |       **QWEN2-7B inst**        |  7B   |   0.5832   | 0.017  |                 [🔗](Qwen/Qwen2-7B-Instruct)                  |
