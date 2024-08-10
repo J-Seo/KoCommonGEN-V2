@@ -1,6 +1,6 @@
 # 🌠 KoCommonGEN v2
 
-KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challenges in Large Language Models (ACL-findings 2024)
+KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challenges in Large Language Models (ACL 2024-Findings)
 
 *Jaehyung Seo, Jaewook Lee, Chanjun Park, SeongTae Hong, Seungjun Lee and Heuiseok Lim* 
 
@@ -8,8 +8,12 @@ KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challeng
 
 ---
 ### 🔥 News
+- September 27, 2023: Provided data support for the [Open Ko-LLM Leaderboard](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard)
 - August 7, 2024: Dataset Release
 - August 10, 2024: Experimental Results for the New Models Added
+- August 14, 2024: Presented a research paper at ACL 2024
+
+
 
 ### 🛠️ Installation
 
@@ -74,8 +78,8 @@ The results of 2-shot evaluation of the newly released models.
 | Model                      | Size  | Acc_norm | Stderr | Link                                                         |
 | :------------------------- | ----- | -------- | ------ | ------------------------------------------------------------ |
 | **GPT-4** (June 13, 2023)         |       | **0.7450**   |        |                                                        |
-| **Mistral Nemo - Instruct**      | 12B   | 0.6612   | 0.0163 | [🔗](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) |
-| **Mistral Nemo - Base**         | 12B   | 0.6340   | 0.0166 | [🔗](https://huggingface.co/mistralai/Mistral-Nemo-Base-2407) |
+| **Mistral-Nemo-Instruct**      | 12B   | 0.6612   | 0.0163 | [🔗](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) |
+| **Mistal Nemo - Base**         | 12B   | 0.6340   | 0.0166 | [🔗](https://huggingface.co/mistralai/Mistral-Nemo-Base-2407) |
 | **Meta-Llama-3.1-8B**          | 8B    | 0.6246   | 0.0166 | [🔗](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B)     |
 | **QWEN2-7B base**              | 7B    | 0.6187   | 0.0167 | [🔗](https://huggingface.co/Qwen/Qwen2-7B)                    |
 | **EXAONE-3.0-7.8B-Instruct**   | 7.8B  | 0.6088   | 0.0168 | [🔗](https://huggingface.co/LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct) |
@@ -124,6 +128,6 @@ This dataset contains some instances of toxic speech.
 
 ### 🙏 Acknowledgement
 
-We sincerely appreciate the dedication of Sung Kim, Chanjun Park, and Sanghoon Kim from **Upstage AI** in managing one of the benchmark datasets for the
+We sincerely appreciate the dedication of Chanjun Park, Sanghoon Kim and Sunghun Kim (Sung Kim) from **Upstage AI** in managing one of the benchmark datasets for the
 [Open Ko-LLM LeaderBoard](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard). 
 
