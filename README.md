@@ -8,7 +8,7 @@ KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challeng
 
 ---
 
-### ✔️ Results (Aug.10.2024)
+### ✔️ Results (August 10, 2024)
 
 | Model | #    | Average Score | cohen's kappa | Krippendorff's alpha | Etc        |
 | :---- | ---- | ------------- | ------------- | -------------------- | ---------- |
