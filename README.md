@@ -74,8 +74,8 @@ The results of 2-shot evaluation of the newly released models.
 | Model                      | Size  | Acc_norm | Stderr | Link                                                         |
 | :------------------------- | ----- | -------- | ------ | ------------------------------------------------------------ |
 | **GPT-4** (June 13, 2023)         |       | **0.7450**   |        |                                                        |
-| **Mistral-Nemo-Instruct**      | 12B   | 0.6612   | 0.0163 | [🔗](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) |
-| **Mistal Nemo - Base**         | 12B   | 0.6340   | 0.0166 | [🔗](https://huggingface.co/mistralai/Mistral-Nemo-Base-2407) |
+| **Mistral Nemo - Instruct**      | 12B   | 0.6612   | 0.0163 | [🔗](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) |
+| **Mistral Nemo - Base**         | 12B   | 0.6340   | 0.0166 | [🔗](https://huggingface.co/mistralai/Mistral-Nemo-Base-2407) |
 | **Meta-Llama-3.1-8B**          | 8B    | 0.6246   | 0.0166 | [🔗](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B)     |
 | **QWEN2-7B base**              | 7B    | 0.6187   | 0.0167 | [🔗](https://huggingface.co/Qwen/Qwen2-7B)                    |
 | **EXAONE-3.0-7.8B-Instruct**   | 7.8B  | 0.6088   | 0.0168 | [🔗](https://huggingface.co/LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct) |
