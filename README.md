@@ -1,4 +1,5 @@
 # 🌠 KoCommonGEN v2
+
 KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challenges in Large Language Models (ACL-findings 2024)
 
 *Jaehyung Seo, Jaewook Lee, Chanjun Park, SeongTae Hong, Seungjun Lee and Heuiseok Lim* 
@@ -6,6 +7,7 @@ KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challeng
 🏫 [NLP & AI Lab](https://blpkorea.cafe24.com/wp/), **Korea University** 
 
 ---
+
 ### 🛠️ Installation
 
 This repository partially adopts the evaluation methods of version 0.3.0 of [EleutherAI/lm-eval-harness](https://github.com/EleutherAI/lm-evaluation-harness/tree/v0.3.0) for the evaluation of KoCommonGEN v2
@@ -19,6 +21,7 @@ $ git clone https://github.com/J-Seo/KoCommonGEN-V2.git
 $ cd KoCommonGEN_v2
 $ pip install -r requirements.txt 
 ```
+
 ### 🚀 Usage
 
 The maximum number of few-shot examples currently uploaded is 5. Users can freely add more to increase *--num_fewshot*
@@ -55,15 +58,32 @@ python3 main.py \
 
 ### ✔️ Results
 
-An example of the evaluation of [KULLM3](https://github.com/nlpai-lab/KULLM)
+| Model | #    | Average Score | cohen's kappa | Krippendorff's alpha | Etc        |
+| :---- | ---- | ------------- | ------------- | -------------------- | ---------- |
+| Human | 22   | 0.8395        | 0.7693        | 0.7706               | $0.8 per Q |
 
-hf-causal-experimental (pretrained=nlpai-lab/KULLM3), provide_description: False, num_fewshot: 2, batch_size: 1
-|     Task      |Version| Metric |Value |   |Stderr|
-|---------------|------:|--------|-----:|---|-----:|
-|ko_commongen_v2|      0|acc     |0.5797|±  |0.0170|
-|               |       |acc_norm|0.6033|±  |0.0168|
+---
 
-As mentioned in the paper, it is possible to evaluate various models.
+| Model                      | Size  | Acc_norm | Stderr | Link                                                         |
+| :------------------------- | ----- | -------- | ------ | ------------------------------------------------------------ |
+| GPT-4                      |       | 0.7450   |        |                                                              |
+| Mistral-Nemo-Instruct      | 12B   | 0.6612   | 0.0163 | [🔗](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) |
+| Mistal Nemo - Base         | 12B   | 0.6340   | 0.0166 | [🔗](https://huggingface.co/mistralai/Mistral-Nemo-Base-2407) |
+| Meta-Llama-3.1-8B          | 8B    | 0.6246   | 0.0166 | [🔗](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B)     |
+| QWEN2-7B base              | 7B    | 0.6187   | 0.0167 | [🔗](https://huggingface.co/Qwen/Qwen2-7B)                    |
+| EXAONE-3.0-7.8B-Instruct   | 7.8B  | 0.6088   | 0.0168 | [🔗](https://huggingface.co/LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct) |
+| Meta-Llama-3.1-8B-Instruct | 8B    | 0.6057   | 0.0168 | [🔗](meta-llama/Meta-Llama-3.1-8B-Instruct)                   |
+| KULLM3                     | 10.8B | 0.6033   | 0.0168 | [🔗](https://huggingface.co/nlpai-lab/KULLM3)                 |
+| QWEN2-7B inst              | 7B    | 0.5832   | 0.017  | [🔗](Qwen/Qwen2-7B-Instruct)                                  |
+| gemma-2-9b-it              | 9B    | 0.5714   | 0.0170 | [🔗](https://huggingface.co/google/gemma-2-9b-it)             |
+| aya-23-8B                  | 8B    | 0.5159   | 0.0172 | [🔗](CohereForAI/aya-23-8B)                                   |
+| bllossom-2.0-13b           | 13B   | 0.3920   | 0.0168 | [🔗](https://huggingface.co/Teddysum/bllossom-2.0-13b)        |
+| allganize-Alpha-Instruct   | 8B    | 0.497    | 0.0172 | [🔗](https://huggingface.co/allganize/Llama-3-Alpha-Ko-8B-Instruct) |
+|                            |       |          |        |                                                              |
+
+​	As mentioned in the paper, it is possible to evaluate various models.
+
+
 
 ### 🇰🇷🇺🇸🇯🇵🇨🇳🇪🇸 Code-switching 
 
@@ -91,6 +111,7 @@ If you intend to use it for evaluation, you should modify the prompt and file pa
     doi = "TBD",
     pages = "TBD"}
 ```
+
 ### 🚨 Warning!
 
 This dataset contains some instances of toxic speech.
@@ -100,14 +121,3 @@ This dataset contains some instances of toxic speech.
 
 We sincerely appreciate the dedication of Sung Kim, Chanjun Park, and Sanghoon Kim from **Upstage AI** in managing one of the benchmark datasets for the
 [Open Ko-LLM LeaderBoard](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard). 
-
-
-
-
-
-
-
-
-
-
-
