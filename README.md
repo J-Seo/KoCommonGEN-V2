@@ -14,6 +14,15 @@ KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challeng
 - August 14, 2024: Presented a research paper at ACL 2024
 
 
+### 📊 Dataset
+
+The KoCommonGEN v2 dataset is available on Hugging Face:
+- Main dataset: [nlpai-lab/ko_commongen_v2](https://huggingface.co/datasets/nlpai-lab/ko_commongen_v2)
+- Code-switching dataset: [nlpai-lab/ko_commongen_v2_code_switching](https://huggingface.co/datasets/nlpai-lab/ko_commongen_v2_code_switching)
+
+You can easily access and use these datasets for your research and experiments.
+
+
 
 ### 🛠️ Installation
 
@@ -101,10 +110,11 @@ The multilingual dataset consists of 99 samples for numerical commonsense reason
 
 The dataset can be found at the following path: `lm_eval/datasets/ko_commongen_v2/shuffled_$LANG$_1.0.jsonl`.
 
+You can also access the code-switching dataset on Hugging Face: [nlpai-lab/ko_commongen_v2_code_switching](https://huggingface.co/datasets/nlpai-lab/ko_commongen_v2_code_switching)
+
 (The code-switching data relies on machine translation, which may result in some inaccuracies.)
 
 If you intend to use it for evaluation, you should modify the prompt and file path in `lm_eval/tasks/ko_commongen_v2.py`.
-
 
 ### 📖 Citation
 
