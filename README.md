@@ -1,6 +1,6 @@
 # 🌠 KoCommonGEN v2
 
-KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challenges in Large Language Models (ACL 2024-Findings)
+KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challenges in Large Language Models [[ACL 2024-Findings](https://aclanthology.org/events/acl-2024/)]
 
 *Jaehyung Seo, Jaewook Lee, Chanjun Park, SeongTae Hong, Seungjun Lee and Heuiseok Lim* 
 
@@ -14,7 +14,6 @@ KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challeng
 - August 14, 2024: Presented a research paper at ACL 2024
 
 
-Our paper is now Available!: https://aclanthology.org/events/acl-2024/
 
 
 ### 📊 Dataset
