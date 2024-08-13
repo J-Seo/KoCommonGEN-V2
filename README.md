@@ -14,6 +14,9 @@ KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challeng
 - August 14, 2024: Presented a research paper at ACL 2024
 
 
+Our paper is now Available!: https://aclanthology.org/events/acl-2024/
+
+
 ### 📊 Dataset
 
 The KoCommonGEN v2 dataset is available on Hugging Face:
