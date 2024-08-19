@@ -121,17 +121,13 @@ If you intend to use it for evaluation, you should modify the prompt and file pa
 ### 📖 Citation
 
 ```
-@inproceedings{seo2024Kocommongenv2,
-    title = "KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challenges in Large Language Models",
-    author = "Jaehyung Seo and Jaewook Lee and Chanjun Park and SeongTae Hong and Seungjun Lee and Heuiseok Lim",
-    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
-    month = August,
-    year = "2024",
-    address = "Bangkok, Thailand",
-    publisher = "Association for Computational Linguistics",
-    url = "TBD",
-    doi = "TBD",
-    pages = "TBD"}
+@inproceedings{seo2024kocommongen,
+  title={KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challenges in Large Language Models},
+  author={Seo, Jaehyung and Lee, Jaewook and Park, Chanjun and Hong, SeongTae and Lee, Seungjun and Lim, Heui-Seok},
+  booktitle={Findings of the Association for Computational Linguistics ACL 2024},
+  pages={2390--2415},
+  year={2024}
+}
 ```
 
 ### 🚨 Warning!
